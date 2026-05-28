@@ -7,12 +7,8 @@ My personal blog using GitHub Issues and GitHub Actions.
 ## 最近更新
 - [本地 gh 测试博客](https://github.com/mars333/myblog/issues/2)--2026-05-28
 - [测试一下用 GitHub Issues 写博客](https://github.com/mars333/myblog/issues/1)--2026-05-28
-## bug
 
-- [测试一下用 GitHub Issues 写博客](https://github.com/mars333/myblog/issues/1)--2026-05-28
 ## 日常
 
 - [本地 gh 测试博客](https://github.com/mars333/myblog/issues/2)--2026-05-28
-## top
 
-- [测试一下用 GitHub Issues 写博客](https://github.com/mars333/myblog/issues/1)--2026-05-28
