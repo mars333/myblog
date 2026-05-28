@@ -12,6 +12,10 @@ on:
     paths:
       - main.py
 
+permissions:
+  contents: write
+  issues: read
+
 jobs:
   sync:
     name: Generate README
@@ -39,6 +43,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add BACKUP/*.md
+          git add README.md feed.xml
+          git add BACKUP/*.md || true
           git commit -a -m 'update new blog' || echo "nothing to commit"
           git push || echo "nothing to push"
