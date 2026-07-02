@@ -1,6 +1,66 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/mars333/myblog</id><title>RSS feed of mars333's myblog</title><updated>2026-05-28T09:57:39.527674+00:00</updated><link href="https://github.com/mars333/myblog"/><link href="https://raw.githubusercontent.com/mars333/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/mars333/myblog/issues/2</id><title>本地 gh 测试博客</title><updated>2026-05-28T09:57:40.040450+00:00</updated><content type="html"><![CDATA[<p>这是用 GitHub CLI 在本地创建的 Issue。!</p>
-]]></content><link href="https://github.com/mars333/myblog/issues/2"/><category term="日常"/><category term="top"/><published>2026-05-28T07:32:31+00:00</published></entry><entry><id>https://github.com/mars333/myblog/issues/1</id><title>测试一下用 GitHub Issues 写博客</title><updated>2026-05-28T09:57:40.248900+00:00</updated><content type="html"><![CDATA[<p>最近把我 tg <a href="https://t.me/hyi0618/11616">频道</a>的每日早起加上了历史上的今天的博客，今天随到了一篇 12 年前的<a href="https://orzfly.com/html/sorry-to-all.html">博客</a>，比较有趣的是，随机到的博客作者正好看到了并且评论了，我随口问了一句：</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/mars333/myblog</id><title>RSS feed of mars333's myblog</title><updated>2026-07-02T12:41:14.899759+00:00</updated><link href="https://github.com/mars333/myblog"/><link href="https://raw.githubusercontent.com/mars333/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/mars333/myblog/issues/3</id><title>[项目分享] PDF 拆分工具 - 按指定页码提取 PDF 页面</title><updated>2026-07-02T12:41:15.300533+00:00</updated><content type="html"><![CDATA[<blockquote>
+<p>项目仓库: <a href="https://github.com/mars333/pdf-splitter">https://github.com/mars333/pdf-splitter</a>
+最新 Release: <a href="https://github.com/mars333/pdf-splitter/releases/latest">https://github.com/mars333/pdf-splitter/releases/latest</a></p>
+</blockquote>
+<h1>PDF 拆分工具</h1>
+<p>按指定页码从 PDF 中提取一页或多页,生成新的 PDF。提供命令行和图形界面两种用法。</p>
+<h2>功能</h2>
+<ul>
+<li>
+支持三种页码语法:<ul>
+<li>单页: <code>3</code></li>
+<li>范围: <code>5-10</code></li>
+<li>组合: <code>1,3,5-7,9</code></li>
+</ul>
+</li>
+<li>页码按用户给的顺序写入新 PDF,自动去重,越界会报错</li>
+<li>CLI 版适合脚本化调用;GUI 版零 Python 经验也能用</li>
+</ul>
+<h2>依赖</h2>
+<pre><code class="language-bash">pip install pypdf
+</code></pre>
+<p>脚本会自动回退到 <code>PyPDF2</code>(若已安装)。</p>
+<h2>命令行版 (<code>pdf_split.py</code>)</h2>
+<pre><code class="language-bash">python pdf_split.py &lt;input.pdf&gt; &lt;pages&gt; [output.pdf]
+</code></pre>
+<p>示例:</p>
+<pre><code class="language-bash"># 提取第 1、3、5-7 页
+python pdf_split.py book.pdf 1,3,5-7 out.pdf
+
+# 省略输出路径,默认生成 book_split.pdf
+python pdf_split.py book.pdf 5-10
+
+# 单页
+python pdf_split.py book.pdf 3
+</code></pre>
+<h2>图形界面版 (<code>pdf_split_gui.py</code>)</h2>
+<pre><code class="language-bash">python pdf_split_gui.py
+</code></pre>
+<ul>
+<li>选中源 PDF 后自动显示总页数并预填输出路径</li>
+<li>后台线程执行,拆分大 PDF 时窗口不会卡死</li>
+<li>完成后可一键打开所在文件夹</li>
+</ul>
+<h2>打包成 exe (可选)</h2>
+<pre><code class="language-bash">pip install pyinstaller
+pyinstaller -F -w --name &quot;PDF拆分工具&quot; pdf_split_gui.py
+</code></pre>
+<p>产物在 <code>dist/PDF拆分工具.exe</code>,单文件、无需 Python 环境即可运行。</p>
+<h2>Windows 中文路径提示</h2>
+<p>Windows cmd 默认 GBK 编码,<code>print</code> 中文文件名可能显示乱码,<strong>但生成的 PDF 文件本身完全正确</strong>。想让终端也正常显示中文:</p>
+<pre><code class="language-bash">chcp 65001
+</code></pre>
+<h2>直接下载(无需 Python 环境)</h2>
+<p>Release 页面提供三平台预编译产物,通过 GitHub Actions 自动构建:</p>
+<ul>
+<li>Windows x64: <code>pdf-splitter-windows-x64.exe</code></li>
+<li>macOS ARM64: <code>pdf-splitter-macos-arm64</code></li>
+<li>Linux x64: <code>pdf-splitter-linux-x64</code></li>
+</ul>
+<p>👉 <a href="https://github.com/mars333/pdf-splitter/releases/latest">https://github.com/mars333/pdf-splitter/releases/latest</a></p>
+]]></content><link href="https://github.com/mars333/myblog/issues/3"/><published>2026-07-02T12:40:56+00:00</published></entry><entry><id>https://github.com/mars333/myblog/issues/2</id><title>本地 gh 测试博客</title><updated>2026-07-02T12:41:15.431826+00:00</updated><content type="html"><![CDATA[<p>这是用 GitHub CLI 在本地创建的 Issue。!</p>
+]]></content><link href="https://github.com/mars333/myblog/issues/2"/><category term="日常"/><category term="top"/><published>2026-05-28T07:32:31+00:00</published></entry><entry><id>https://github.com/mars333/myblog/issues/1</id><title>测试一下用 GitHub Issues 写博客</title><updated>2026-07-02T12:41:15.559163+00:00</updated><content type="html"><![CDATA[<p>最近把我 tg <a href="https://t.me/hyi0618/11616">频道</a>的每日早起加上了历史上的今天的博客，今天随到了一篇 12 年前的<a href="https://orzfly.com/html/sorry-to-all.html">博客</a>，比较有趣的是，随机到的博客作者正好看到了并且评论了，我随口问了一句：</p>
 <h2>12 年过去了，过得还好吗？</h2>
 <img width="1144" height="565" alt="Image" src="https://github.com/user-attachments/assets/3a09ee5d-00ce-4ffc-ae66-1459a179b34d" />
 <h3>那年我 25 岁</h3>
