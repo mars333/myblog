@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/mars333/myblog</id><title>RSS feed of mars333's myblog</title><updated>2026-07-02T12:45:34.349825+00:00</updated><link href="https://github.com/mars333/myblog"/><link href="https://raw.githubusercontent.com/mars333/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/mars333/myblog/issues/3</id><title>[项目分享] PDF 拆分工具 - 按指定页码提取 PDF 页面</title><updated>2026-07-02T12:45:34.846505+00:00</updated><content type="html"><![CDATA[<blockquote>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/mars333/myblog</id><title>RSS feed of mars333's myblog</title><updated>2026-07-02T12:46:25.608881+00:00</updated><link href="https://github.com/mars333/myblog"/><link href="https://raw.githubusercontent.com/mars333/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/mars333/myblog/issues/3</id><title>[项目分享] PDF 拆分工具 - 按指定页码提取 PDF 页面</title><updated>2026-07-02T12:46:26.027043+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>项目仓库: <a href="https://github.com/mars333/pdf-splitter">https://github.com/mars333/pdf-splitter</a>
 最新 Release: <a href="https://github.com/mars333/pdf-splitter/releases/latest">https://github.com/mars333/pdf-splitter/releases/latest</a></p>
 </blockquote>
@@ -65,8 +65,8 @@ pyinstaller -F -w --name &quot;PDF拆分工具&quot; pdf_split_gui.py
 <li>Linux x64: <code>pdf-splitter-linux-x64</code></li>
 </ul>
 <p>👉 <a href="https://github.com/mars333/pdf-splitter/releases/latest">https://github.com/mars333/pdf-splitter/releases/latest</a></p>
-]]></content><link href="https://github.com/mars333/myblog/issues/3"/><category term="日常"/><category term="top"/><published>2026-07-02T12:40:56+00:00</published></entry><entry><id>https://github.com/mars333/myblog/issues/2</id><title>本地 gh 测试博客</title><updated>2026-07-02T12:45:34.988684+00:00</updated><content type="html"><![CDATA[<p>这是用 GitHub CLI 在本地创建的 Issue。!</p>
-]]></content><link href="https://github.com/mars333/myblog/issues/2"/><category term="日常"/><category term="top"/><published>2026-05-28T07:32:31+00:00</published></entry><entry><id>https://github.com/mars333/myblog/issues/1</id><title>测试一下用 GitHub Issues 写博客</title><updated>2026-07-02T12:45:35.123027+00:00</updated><content type="html"><![CDATA[<p>最近把我 tg <a href="https://t.me/hyi0618/11616">频道</a>的每日早起加上了历史上的今天的博客，今天随到了一篇 12 年前的<a href="https://orzfly.com/html/sorry-to-all.html">博客</a>，比较有趣的是，随机到的博客作者正好看到了并且评论了，我随口问了一句：</p>
+]]></content><link href="https://github.com/mars333/myblog/issues/3"/><category term="日常"/><category term="top"/><published>2026-07-02T12:40:56+00:00</published></entry><entry><id>https://github.com/mars333/myblog/issues/2</id><title>本地 gh 测试博客</title><updated>2026-07-02T12:46:26.193201+00:00</updated><content type="html"><![CDATA[<p>这是用 GitHub CLI 在本地创建的 Issue。!</p>
+]]></content><link href="https://github.com/mars333/myblog/issues/2"/><category term="日常"/><category term="top"/><published>2026-05-28T07:32:31+00:00</published></entry><entry><id>https://github.com/mars333/myblog/issues/1</id><title>测试一下用 GitHub Issues 写博客</title><updated>2026-07-02T12:46:26.322377+00:00</updated><content type="html"><![CDATA[<p>最近把我 tg <a href="https://t.me/hyi0618/11616">频道</a>的每日早起加上了历史上的今天的博客，今天随到了一篇 12 年前的<a href="https://orzfly.com/html/sorry-to-all.html">博客</a>，比较有趣的是，随机到的博客作者正好看到了并且评论了，我随口问了一句：</p>
 <h2>12 年过去了，过得还好吗？</h2>
 <img width="1144" height="565" alt="Image" src="https://github.com/user-attachments/assets/3a09ee5d-00ce-4ffc-ae66-1459a179b34d" />
 <h3>那年我 25 岁</h3>
@@ -99,8 +99,5 @@ pyinstaller -F -w --name &quot;PDF拆分工具&quot; pdf_split_gui.py
 没有遗憾么？
 当然有，但是没法重启人生啊
 有很多离开这个世界的朋友，亲人，想起还会心痛
-但是无论如何线性的时间只能 move on
-希望 12 年后我能再打开这篇博客
-我 49 岁，大概也知天命了，我儿子 20 岁，给他读这篇博客。</p>
-<p>写到这里。 @mars333 </p>
+。 @mars333 </p>
 ]]></content><link href="https://github.com/mars333/myblog/issues/1"/><published>2026-05-28T07:14:50+00:00</published></entry></feed>
